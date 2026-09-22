@@ -103,9 +103,9 @@ print(f"{c} = {a} + {b}")
 
 ```mermaid
 graph TD
-  A[Start] --> B{2>3}
-  B --> |Да| C[Действие]
-  B --> |Нет| D[Конец]
+  A[Start] --> B{2>1}
+  B --> |Yes| C[Action]
+  B --> |No| D[End]
 ```
 
 ### 9.Экранирование
